@@ -123,27 +123,36 @@ roslaunch insperbot control.launch
 
 ``` bash
 
-rosrun project your_pyyhon_code
+rosrun project your_python_code
 
 ```
 
 ### How to control the robot's gripper
 
-Arm (joint1):
+#### Arm (joint1):
 
+
+``` bash
 Up: 1.5
+
 Forward : 0
+
 Down : -1.5
 
 rostopic pub -1 /joint1_position_controller/command std_msgs/Float64 "data: 0"
 
-Gripper (joint2 and joint3)
+```
+#### Gripper (joint2 and joint3)
 
+
+``` bash
 Closed: 0
+
 Open: -1 
 
 rostopic pub -1 /joint2_position_controller/command std_msgs/Float64 "data: 0"
 
+```
 
 ### Past Projects Videos
 
