@@ -1,0 +1,167 @@
+<sdf version="1.4">
+  <world name="default">
+    <scene>
+      <ambient>0.8 0.8 0.8 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+      <pose> -2.0 2.0 2.0 0 0 0</pose>
+    </include>
+
+  <!-- Piso da sala - circuito -->
+    <include>
+      <uri>model://pista_s/pisosala</uri>
+      <pose> 0 0 0 0 0 -1.57</pose>
+    </include>
+
+
+ <!-- cat -->
+    <include>
+      <uri>model://pista_s/objeto/cat</uri>
+      <pose> 4.46 1.611 0.251305 0 0 0</pose>
+    </include>
+ 
+ <!-- bird -->
+    <include>
+      <uri>model://pista_s/objeto/bird</uri>
+      <pose> -1.06 3.52 0.251305 0 0 0</pose>
+    </include>
+
+ <!-- bicycle -->
+    <include>
+      <uri>model://pista_s/objeto/bicycle</uri>
+      <pose> 3.62 -3.60 0.251305 0 0 0</pose>
+    </include>
+
+<!-- dog -->
+    <include>
+      <uri>model://pista_s/objeto/dog</uri>
+      <pose> -5.41 -3.65 0.251305 0 0 0</pose>
+    </include>
+
+
+
+ <!-- creeper_11 -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_11</uri>
+       <pose> -4.5 -0.48 0 0 0 1.599950</pose>
+    </include>
+
+ <!-- creeper_11_rosa -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_11_rosa</uri>
+       <pose> -5.7 -0.48 0 0 0 1.599950</pose>
+    </include>
+
+ <!-- creeper_12 -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_12</uri>
+      <pose> -1 -1.8 0 0 0 1.549944</pose>
+    </include>
+
+  <!-- creeper_12_rosa -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_12_rosa</uri>
+      <pose> 0.42 -1.8 0 0 0 1.549944</pose>
+    </include>
+
+ <!-- creeper_13 -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_13</uri>
+      <pose> 4.15 -1.5 0 0 0 -1.63</pose>
+    </include>
+
+
+ <!-- creeper_21 -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_21</uri>
+      <pose> 5 0 0 0 0 0</pose>
+    </include>
+
+  <!-- creeper_21_laranja -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_21_laranja</uri>
+      <pose> 3.5 0 0 0 0 0</pose>
+    </include>
+
+ <!-- creeper_22 -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_22</uri>
+      <pose> 0.5 2 0 0 0 1.549952</pose>    
+     
+    </include>
+ <!-- creeper_23 -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_23</uri>
+      <pose> -3 -2.8 0 0 0 0</pose>
+    </include>
+
+ <!-- creeper_50 -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_50</uri>
+      <pose> -5.06 1.30 0.162 0 0 0</pose>
+    </include>
+
+
+ <!-- creeper_100 -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_100</uri>
+      <pose> -0.11 4.70 0.162 0 0 0</pose>
+    </include>
+
+ <!-- creeper_150 -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_150</uri>
+      <pose> 4.68 -2.5 0.162 0 0 3.150000</pose>
+    </include>
+
+
+ <!-- creeper_200 -->
+    <include>
+      <uri>model://pista_s/creepers/creeper_200</uri>
+      <pose> -0.92 0.148 0.162 0 0 1.6</pose>
+    </include>
+
+
+<!-- mapa sala -->
+    <include>
+      <uri>model://pista_s/parede</uri>
+      <pose> 0 0 0 0 0 0</pose>
+    </include>
+
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>150</iters>
+          <precon_iters>0</precon_iters>
+          <sor>1.400000</sor>
+          <use_dynamic_moi_rescaling>1</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>0.00001</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>2000.000000</contact_max_correcting_vel>
+          <contact_surface_layer>0.01000</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>
+   
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>0.238775 -6.8831 10.8485 -0 0.979642 1.5602</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
+  </world>
+
+</sdf>
