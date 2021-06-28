@@ -16,8 +16,8 @@
   </node>
 
 
- <!-- start rviz -->
-  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find insperbot)/rviz/model.rviz" output="screen"/>
+ <!-- start rviz 
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find insperbot)/rviz/model.rviz" output="screen"/>-->
 
   
 </launch>
