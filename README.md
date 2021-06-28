@@ -1,4 +1,4 @@
-# insperbot-
+# Iinsperbot
 ROS + Gazebo Simulator - Computational Robotics Insper.
 
 ### Requeriments
