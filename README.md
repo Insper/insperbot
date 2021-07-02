@@ -34,13 +34,15 @@ export GAZEBO_MODEL_PATH=$HOME/catkin_ws/src/insperbot/models:
 
 ### Choose one of this Scenarios
 
-
+```bash
 roslaunch insperbot burger_4_andar.launch
+```
 
 <img src="/image/burger_4_andar.png" width="650" height="350">
 
-
+```bash
 roslaunch insperbot caixas.launch
+```bash
 
 <img src="/image/caixas.png" width="650" height="350">
 
