@@ -179,7 +179,11 @@ https://www.youtube.com/playlist?list=PLVU3UhXa4-X-qIlNL6NVvIizOXXJkkkU1
 ![Github 2018.1](https://github.com/insper/robot18)
 
 
+### Authors
 
+![Fabio R de Miranda](https://github.com/mirwox)
+![Arnaldo Alves Viana Junior](https://github.com/arnaldojr/)
+![Lícia Sales Costa Lima](https://github.com/liciascl)
 
 
 
