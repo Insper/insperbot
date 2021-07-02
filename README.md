@@ -42,7 +42,7 @@ roslaunch insperbot burger_4_andar.launch
 
 ```bash
 roslaunch insperbot caixas.launch
-```bash
+```
 
 <img src="/image/caixas.png" width="650" height="350">
 
