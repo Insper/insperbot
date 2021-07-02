@@ -1,6 +1,10 @@
 # InsperBot
 ROS + Gazebo Simulator - Computational Robotics Insper.
 
+
+[/image/rodando.mp4](/image/rodando.mp4)
+
+
 ### Requeriments
 
 - Ubuntu 20.04 
@@ -113,7 +117,7 @@ roslaunch insperbot zig-zag.launch
 <img src="/image/zig-zag.png" width="650" height="350">
 
 
-### Enable gripper control
+### To Enable gripper control
 
 ``` bash
 
@@ -121,18 +125,11 @@ roslaunch insperbot control.launch
 
 ```
 
-### Run your python code
-
-``` bash
-
-rosrun project your_python_code
-
-```
-
 ### How to control the robot's gripper
 
 #### Arm (joint1):
 
+[/image/arm.mp4](/image/arm.mp4)
 
 ``` bash
 Up: 1.5
@@ -146,6 +143,7 @@ rostopic pub -1 /joint1_position_controller/command std_msgs/Float64 "data: 0"
 ```
 #### Gripper (joint2 and joint3)
 
+[/image/gripper.mp4](/image/gripper.mp4)
 
 ``` bash
 Closed: 0
