@@ -2,7 +2,7 @@
 ROS + Gazebo Simulator - Computational Robotics Insper.
 
 
-<img src="/image/rodando.gif" width="400">
+ <img src="https://raw.githubusercontent.com/liciascl/liciascl/main/robotsim.gif" width="400">   <img src="/image/rodando.gif" width="290">  
 
 
 ### Requeriments
