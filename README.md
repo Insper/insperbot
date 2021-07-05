@@ -121,7 +121,7 @@ roslaunch insperbot zig-zag.launch
 
 ``` bash
 
-roslaunch insperbot control.launch     
+roslaunch insperbot arm_control.launch     
 
 ```
 
