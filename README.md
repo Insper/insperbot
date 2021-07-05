@@ -2,7 +2,7 @@
 ROS + Gazebo Simulator - Computational Robotics Insper.
 
 
-[/image/rodando.mp4](/image/rodando.mp4)
+ <img src="https://raw.githubusercontent.com/liciascl/liciascl/main/robotsim.gif" width="400">   <img src="/image/rodando.gif" width="290">  
 
 
 ### Requeriments
@@ -129,7 +129,8 @@ roslaunch insperbot arm_control.launch
 
 #### Arm (joint1):
 
-[/image/arm.mp4](/image/arm.mp4)
+<img src="/image/arm.gif" width="400">
+
 
 ``` bash
 Up: 1.5
@@ -143,7 +144,7 @@ rostopic pub -1 /joint1_position_controller/command std_msgs/Float64 "data: 0"
 ```
 #### Gripper (joint2 and joint3)
 
-[/image/gripper.mp4](/image/gripper.mp4)
+<img src="/image/gripper.gif" width="400">
 
 ``` bash
 Closed: 0
@@ -161,5 +162,29 @@ https://www.youtube.com/playlist?list=PLVU3UhXa4-X9ZWrIV37l9ckvalaP5KiE9
 
 Real and virtual robot:
 https://www.youtube.com/playlist?list=PLVU3UhXa4-X-qIlNL6NVvIizOXXJkkkU1
+
+
+### INSPER Robótica Computacional - 3.o semestre Engenharia de Computação 
+
+![Github 2021.1](https://github.com/insper/robot21.1)
+
+![Github 2020.2](https://github.com/insper/robot202)
+
+![Github 2020.1](https://github.com/insper/robot20)
+
+![Github 2019](https://github.com/insper/robot19)
+
+![Github 2018.2](https://github.com/insper/robot18-2)
+
+![Github 2018.1](https://github.com/insper/robot18)
+
+
+### Authors
+
+![Fabio R de Miranda](https://github.com/mirwox)
+![Arnaldo Alves Viana Junior](https://github.com/arnaldojr/)
+![Lícia Sales Costa Lima](https://github.com/liciascl)
+
+
 
 
