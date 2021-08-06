@@ -42,79 +42,79 @@ export GAZEBO_MODEL_PATH=$HOME/catkin_ws/src/insperbot/models:
 roslaunch insperbot burger_4_andar.launch
 ```
 
-<img src="/image/burger_4_andar.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/burger_4_andar.png" width="650" height="350">
 
 ```bash
 roslaunch insperbot caixas.launch
 ```
 
-<img src="/image/caixas.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/caixas.png" width="650" height="350">
 
 roslaunch insperbot circuito.launch
 
-<img src="/image/circuito.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/circuito.png" width="650" height="350">
 
 roslaunch insperbot corredor.launch
 
-<img src="/image/corredor.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/corredor.png" width="650" height="350">
 
 
 roslaunch insperbot corrida_de_obstaculos.launch
 
-<img src="/image/corrida_de_obstaculos.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/corrida_de_obstaculos.png" width="650" height="350">
 
 
 roslaunch insperbot cruzamento.launch
 
-<img src="/image/cruzamento.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/cruzamento.png" width="650" height="350">
 
 
 roslaunch insperbot encaixotado.launch
 
-<img src="/image/encaixotado.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/encaixotado.png" width="650" height="350">
 
 
 roslaunch insperbot forca.launch 
 
 roslaunch insperbot forca_random.launch
 
-<img src="/image/forca.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/forca.png" width="650" height="350">
 
 
 roslaunch insperbot formas.launch
 
-<img src="/image/formas.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/formas.png" width="650" height="350">
 
 
 roslaunch insperbot labirinto.launch
 
-<img src="/image/labirinto.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/labirinto.png" width="650" height="350">
 
 
 roslaunch insperbot mesa.launch
 
-<img src="/image/mesa.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/mesa.png" width="650" height="350">
 
 
 roslaunch insperbot pista_s2.launch
 
-<img src="/image/pista_s2.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/pista_s2.png" width="650" height="350">
 
 roslaunch insperbot pista_u.launch
 
-<img src="/image/pista_u.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/pista_u.png" width="650" height="350">
 
 roslaunch insperbot retangulos.launch
 
-<img src="/image/retangulos.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/retangulos.png" width="650" height="350">
 
 roslaunch insperbot salinha.launch
 
-<img src="/image/salinha.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/salinha.png" width="650" height="350">
 
 roslaunch insperbot zig-zag.launch
 
-<img src="/image/zig-zag.png" width="650" height="350">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/zig-zag.png" width="650" height="350">
 
 
 ### To Enable gripper control
@@ -129,7 +129,7 @@ roslaunch insperbot arm_control.launch
 
 #### Arm (joint1):
 
-<img src="/image/arm.gif" width="400">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/arm.gif" width="400">
 
 
 ``` bash
@@ -144,7 +144,7 @@ rostopic pub -1 /joint1_position_controller/command std_msgs/Float64 "data: 0"
 ```
 #### Gripper (joint2 and joint3)
 
-<img src="/image/gripper.gif" width="400">
+<img src="https://raw.githubusercontent.com/Insper/insperbot/main/image/gripper.gif" width="400">
 
 ``` bash
 Closed: 0
