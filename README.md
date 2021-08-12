@@ -67,9 +67,9 @@ rostopic pub -1 /joint2_position_controller/command std_msgs/Float64 "data: 0"
 ```
 
 
-For real Robot, we have a **Quick Start Guide - InsperBot** [here](https://www.notion.so/Quick-Start-Guide-InsperBot-ba4dd1db752b4ec9bdb1738f4da4c570)
+For real Robot, we have a **Quick Start Guide - InsperBot** [here](https://github.com/Insper/insperbot/wiki/Quick-Start-Guide---InsperBot)
 
-To more, vistit [InsperBot Wiki](https://www.notion.so/InsperBot-Wiki-0891a8fde475487fb68d0c38ce00e4dd)
+To more, vistit [InsperBot Wiki](https://github.com/Insper/insperbot/wiki)
 
 
 ### Past Projects Videos
