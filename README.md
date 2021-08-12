@@ -12,7 +12,7 @@ This is the virtual version of InsperBot, He was built by the technical team of 
 - ROS Noetic
 - Opencv4
 
-**NOTE:** We have a guide for setup your system with this Requirements **[here](https://spectacled-kiss-c46.notion.site/How-Setup-your-Ubuntu-20-04-2f0b9f499bf14b1a9d412fabd3622df9v)** 
+**NOTE:** We have a guide for setup your system with this Requirements **[here](https://github.com/Insper/insperbot/wiki/How-Setup-your-Ubuntu-20.04)** 
 
 ### How to Run
 
@@ -34,7 +34,7 @@ export LC_NUMERIC="en_US.UTF-8"
 export GAZEBO_MODEL_PATH=$HOME/catkin_ws/src/insperbot/models:
 ```
 
-Choose one of the scenarios available **[here](https://www.notion.so/Useful-Commands-ca89956886144a39a1ce3348185a6507)** or create your own by following **[this guide](http://gazebosim.org/tutorials?tut=build_world&cat=build_world)**
+Choose one of the scenarios available **[here](https://github.com/Insper/insperbot/wiki/Useful-Commands)** or create your own by following **[this guide](http://gazebosim.org/tutorials?tut=build_world&cat=build_world)**
 
 ### To Enable gripper control
 
@@ -66,12 +66,6 @@ Open: -1
 rostopic pub -1 /joint2_position_controller/command std_msgs/Float64 "data: 0"
 ```
 
-
-For real Robot, we have a **Quick Start Guide - InsperBot** [here](https://github.com/Insper/insperbot/wiki/Quick-Start-Guide---InsperBot)
-
-To more, vistit [InsperBot Wiki](https://github.com/Insper/insperbot/wiki)
-
-
 ### Past Projects Videos
 
 Virtual robot: 
@@ -81,3 +75,32 @@ Virtual robot:
 Real and virtual robot:
 
 [https://www.youtube.com/playlist?list=PLVU3UhXa4-X-qIlNL6NVvIizOXXJkkkU1](https://www.youtube.com/playlist?list=PLVU3UhXa4-X-qIlNL6NVvIizOXXJkkkU1)
+
+
+
+### INSPER Repositories
+
+
+[Github 2021.1](https://github.com/insper/robot21.1)
+
+[Github 2020.2](https://github.com/insper/robot202)
+
+[Github 2020.1](https://github.com/insper/robot20)
+
+[Github 2019](https://github.com/insper/robot19)
+
+[Github 2018.2](https://github.com/insper/robot18-2)
+
+[Github 2018.1](https://github.com/insper/robot18)
+
+
+----
+
+### Authors
+
+[Fabio R de Miranda](https://github.com/mirwox)
+
+[Arnaldo Alves Viana Junior](https://github.com/arnaldojr/)
+
+[Lícia Sales Costa Lima](https://github.com/liciascl)
+
